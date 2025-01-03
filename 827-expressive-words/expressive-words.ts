@@ -48,6 +48,7 @@ function expressiveWords(s: string, words: string[]): number {
         }
 
         // if the isStretchy comes back true from the loop, add +1 to result for returning the value
+        // the !s[si] is here to make sure that the entire string is processed
         if (isStretchy && !s[si]) result++;
     }
 
