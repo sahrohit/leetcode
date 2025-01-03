@@ -1,2 +1,5 @@
-# leetcode
-Collection of LeetCode questions to ace the coding interview! - Created using [LeetHub](https://github.com/QasimWani/LeetHub)
+# Leetcode
+
+Collection of LeetCode questions I solved.
+
+[![sahrohit's LeetCode Stats](https://leetcode-stats.vercel.app/api?username=sahrohit&theme=Dark)](https://leetcode.com/u/sahrohit/)
