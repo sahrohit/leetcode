@@ -6,8 +6,6 @@ function decodeString(s: string): string {
     // Looping through the input string
     for (let i = 0; i < s.length; i++) {
 
-        console.log("Stack", stack)
-
         // When we encounter a closing bracket,
         // the operations inside a bracket should be performed
         if (s[i] === "]") {
