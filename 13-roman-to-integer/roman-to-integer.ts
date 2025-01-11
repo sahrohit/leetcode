@@ -12,6 +12,8 @@ function romanToInt(s: string): number {
     let result = 0;
 
     for (let i = s.length - 1; i >= 0; i--) {
+        // If i-1 value is smaller than current value
+        // We calculate both at once 
         if (ROMAN[s[i - 1]] < ROMAN[s[i]]) {
             result += (ROMAN[s[i]] - ROMAN[s[i - 1]])
             i--;
